@@ -1,6 +1,10 @@
 = Theme License
 :toc:
 
+== Images
+
+All images within the assets folder retain the original licensing as specified by the owners.
+
 == Fonts
 
 * Libre Barcode 128 Text - SIL Open Font License 1.1
