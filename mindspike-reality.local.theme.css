@@ -1,0 +1,10 @@
+/**
+ * @name        Mindspike Reality
+ * @author      Avidya (@solitai7e) fixed and edited by ehukuu, then further modified by Tulpenkiste
+ * @description Inspired by https://corru.observer/
+ * @version     1.0
+ */
+
+/* We aren't using the minimised version as the local.css is meant for testing. */
+@import url("mindspike-reality/mindspike.css");
+

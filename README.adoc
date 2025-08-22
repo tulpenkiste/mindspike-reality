@@ -1,0 +1,12 @@
+= Mindspike Reality
+:toc:
+
+== Plans
+
+* [ ] Remove dependency on Perl.
+* [ ] Fixes
+** [ ] Fix emoji menu tabs
+
+== Changes
+
+* Added an option to install the theme locally
