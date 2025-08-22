@@ -45,10 +45,6 @@
 	--mindspike-profile-full-color: yellow;
 }
 
-.vc-settings-quickActions-pill {
-	color: black;
-}
-
 * {
 	--background-primary: black !important;
 	--background-secondary: black !important;
@@ -116,6 +112,18 @@ body *, ::placeholder {
 	background: aqua !important;
 	border-radius: 0 !important;
 }
+
+/**
+ * UNSECTIONED
+*/
+.vc-settings-quickActions-pill {
+	color: black;
+}
+
+.tagListInner_f369db *, .tags__08166 * {
+	color: black;
+}
+
 
 /**
  * MESSAGES - sectMessage
