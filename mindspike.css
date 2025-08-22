@@ -139,6 +139,8 @@ body *, ::placeholder {
 	background: black !important;
 	border-left-width: 1px;
 	border-right-width: 1px;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
 	padding-right: 0 !important;
 	opacity: 1 !important;
 }
@@ -223,6 +225,40 @@ body *, ::placeholder {
 	display: none;
 }
 
+.timestamp_c19a55.alt_c19a55 {
+	left: -56px !important;
+}
+
+.timestamp_c19a55.alt_c19a55 * {
+	font-size: 0.75rem;
+	text-wrap: nowrap;
+}
+
+.messageContent_c19a55 {
+	color: var(--mindspike-chat-color0);
+	margin: 0 !important;
+	padding: 0 8px !important;
+	overflow: visible !important; /* HACK: wHY caNT I gET tHE iNLInE CODE blOCKS
+										to sTOP oVERFlowIng dIScORD wHaT THe FUCK */
+}
+
+.markup__75297 {
+	line-height: 1.25em;
+}
+
+.codeContainer__75297 code {
+	border: 1px solid magenta;
+	border-radius: 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("assets/corrurippletran.gif") !important;
+}
+
+.markup__75297 .inline {
+	color: magenta;
+	border: 1px dashed magenta;
+	border-radius: 0;
+	padding: 0 2px;
+	margin: 2px 2px;
+}
 
 /* stickers */
 .row_c6367b {
@@ -344,41 +380,6 @@ body *, ::placeholder {
 .username_c19a55:hover {
 	color: white !important;
 	text-decoration: none !important;
-}
-
-.timestamp_c19a55.alt_c19a55 {
-	left: -56px !important;
-}
-
-.timestamp_c19a55.alt_c19a55 * {
-	font-size: 0.75rem;
-	text-wrap: nowrap;
-}
-
-.messageContent_c19a55 {
-	color: var(--mindspike-chat-color0);
-	margin: 0 !important;
-	padding: 0 8px !important;
-	overflow: visible !important; /* HACK: wHY caNT I gET tHE iNLInE CODE blOCKS
-										to sTOP oVERFlowIng dIScORD wHaT THe FUCK */
-}
-
-.markup__75297 {
-	line-height: 1.25em;
-}
-
-.codeContainer__75297 code {
-	border: 1px solid magenta;
-	border-radius: 0;
-	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("assets/corrurippletran.gif") !important;
-}
-
-.markup__75297 .inline {
-	color: magenta;
-	border: 1px dashed magenta;
-	border-radius: 0;
-	padding: 0 2px;
-	margin: 2px 2px;
 }
 
 .container_b7e1cb {
@@ -648,7 +649,7 @@ body *, ::placeholder {
 /* unread separator */
 .isUnread__908e2 {
 	position: static;
-	margin: 10 !important;
+	margin: 0 !important;
 	padding: 0 4px;
 	border: 5px double;
 	background: aqua;

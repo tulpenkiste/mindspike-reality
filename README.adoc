@@ -15,7 +15,7 @@ Place `mindspike-reality.online.theme.css` into your Vencord themes folder.
 * [ ] Fixes
 ** [ ] Fix emoji menu tabs
 ** [ ] Fix h1/h2/h3 gaps
-** [ ] Fix rounding on the right side of user message boxes on new message
+** [x] Fix rounding on the right side of user message boxes on new message
 
 == Changes
 
