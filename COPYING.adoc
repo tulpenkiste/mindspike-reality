@@ -1,0 +1,13 @@
+= Theme License
+:toc:
+
+== Fonts
+
+* Libre Barcode 128 Text - SIL Open Font License 1.1
+* Space Mono - SIL Open Font License 1.1
+* Newspaper Cutout Font White on Black - Unknown
+* Beech - Freeware
+
+== Theme
+
+Mindspike Reality is licensed under the https://creativecommons.org/publicdomain/zero/1.0[CC-0 1.0 license].
