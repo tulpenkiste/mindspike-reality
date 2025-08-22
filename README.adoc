@@ -12,3 +12,4 @@
 == Changes
 
 * Added an option to install the theme locally
+* H3s (Used with three hashtags) now use beech.
