@@ -124,6 +124,10 @@ body *, ::placeholder {
 	color: black;
 }
 
+/* .membersGroup_c8ffbb > span[aria-hidden="true"] is the other one */
+.hiddenVisually__27f77 {
+	display: none;
+}
 
 /**
  * MESSAGES - sectMessage
@@ -209,12 +213,18 @@ body *, ::placeholder {
 	border-top-width: 1px;
 }
 
-.botTag_c19a55::after {
+.botTag_c19a55::after, .botTag__5d473 > .botText__82f07::after {
 	content: "GOLEM";
 	offset-position: 0 -200;
 	color: black;
 	font-size: .8rem;
 	font-weight: 600;
+	display: block;
+	font-size: --font-weight-semibold;
+}
+
+.botTag__5d473 > .botText__82f07::after {
+	offset-position: 0 -200px;
 }
 
 .botTagVerified__82f07 > * {
@@ -222,7 +232,8 @@ body *, ::placeholder {
 }
 
 .botText__82f07 {
-	display: none;
+	font-size: 0px !important;
+	text-wrap: nowrap !important;
 }
 
 .timestamp_c19a55.alt_c19a55 {
