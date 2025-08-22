@@ -15,3 +15,4 @@
 
 * Added an option to install the theme locally
 * H3s (Used with three hashtags) now use beech.
+* Emoji/Gif/Sticker tabs now use the right font and text colour
