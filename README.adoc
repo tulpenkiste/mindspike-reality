@@ -4,6 +4,8 @@
 == Plans
 
 * [ ] Remove dependency on Perl.
+* [ ] Major cleanup
+** [ ] Modularize
 * [ ] Fixes
 ** [ ] Fix emoji menu tabs
 

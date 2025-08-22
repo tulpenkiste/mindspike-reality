@@ -20,7 +20,6 @@
 	src: url("assets/NewspaperCutoutWhiteOnBlac-Rg.ttf") format('truetype');
 }
 
-
 :root {
 	--mindspike-chat-color0: aqua;
 	--mindspike-chat-color1: yellow;
@@ -34,6 +33,9 @@
 	--mindspike-profile-full-color: yellow;
 }
 
+.vc-settings-quickActions-pill {
+	color: black;
+}
 
 * {
 	--background-primary: black !important;
@@ -102,9 +104,6 @@ body *, ::placeholder {
 	background: aqua !important;
 	border-radius: 0 !important;
 }
-
-
-
 
 /* messages */
 .scrollerContent__36d07 {
