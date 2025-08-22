@@ -5,5 +5,6 @@
  * @version     0.0.1
  */
 
- @import url("https://codeberg.org/tulpenkiste/mindspike-reality/raw/branch/corrucyst/mindspike.css");
+ /* Codeberg appears to not like discord themes :woozy: */
+ @import url("https://raw.githubusercontent.com/tulpenkiste/mindspike-reality/refs/heads/corrucyst/mindspike.css");
 

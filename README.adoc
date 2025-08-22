@@ -1,6 +1,8 @@
 = Mindspike Reality
 :toc:
 
+IMPORTANT: DEVELOPMENT OCCURS ON https://codeberg.org/tulpenkiste/mindspike-reality[CODEBERG], WITH A https://github.com/tulpenkiste/mindspike-reality[GITHUB MIRROR].
+
 == Installation
 
 Place `mindspike-reality.online.theme.css` into your Vencord themes folder.

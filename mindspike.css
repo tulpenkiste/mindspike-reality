@@ -8,28 +8,39 @@
 @font-face {
 	font-family: "spacemono";
 	font-weight: normal;
-	src: url("assets/font/SpaceMono-Regular.woff2");
+	src:
+		local("spacemono")
+		url("assets/font/SpaceMono-Regular.woff2");
 }
 
 @font-face {
 	font-family: "spacemono";
 	font-weight: bold;
-	src: url("assets/font/SpaceMono-Bold.woff2");
+	src:
+		local("spacemono")
+		url("assets/font/SpaceMono-Bold.woff2");
 }
 
 @font-face {
 	font-family: "bstrd";
-	src: url("assets/font/NewspaperCutoutWhiteOnBlac-Rg.ttf") format('truetype');
+	src: 
+		local("bstrd") format('truetype')
+		local("NewspaperCutoutWhiteOnBlac_Rg") format('truetype')
+		url("assets/font/NewspaperCutoutWhiteOnBlac-Rg.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: "barcodetext";
-	src: url("assets/font/LibreBarcode128Text-Regular.woff2");
+	src: 
+		local("barcodetext")
+		url("assets/font/LibreBarcode128Text-Regular.woff2");
 }
 
 @font-face {
 	font-family: "beech";
-	src: url("assets/font/beech.ttf") format('truetype');
+	src: 
+		local("beech") format('truetype')
+		url("assets/font/beech.ttf") format('truetype');
 }
 
 :root {
