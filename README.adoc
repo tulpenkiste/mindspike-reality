@@ -5,9 +5,11 @@
 
 * [ ] Remove dependency on Perl.
 * [ ] Major cleanup
-** [ ] Modularize
+** [ ] Place rules into sections, based on what they're affecting.
 * [ ] Fixes
 ** [ ] Fix emoji menu tabs
+** [ ] Fix h1/h2/h3 gaps
+** [ ] Fix rounding on the right side of user message boxes on new message
 
 == Changes
 
