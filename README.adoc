@@ -1,6 +1,10 @@
 = Mindspike Reality
 :toc:
 
+== Installation
+
+Place `mindspike-reality.online.theme.css` into your Vencord themes folder.
+
 == Plans
 
 * [ ] Remove dependency on Perl.
@@ -16,3 +20,5 @@
 * Added an option to install the theme locally
 * H3s (Used with three hashtags) now use beech.
 * Emoji/Gif/Sticker tabs now use the right font and text colour
+* Forum tags are readable now
+* Vencord settings "pills" are readable now
