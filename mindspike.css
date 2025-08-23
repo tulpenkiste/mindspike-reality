@@ -568,6 +568,9 @@ body *, ::placeholder {
 .guildDetail_d5f3cd, .guildDetail_d5f3cd * {
 	display: inline;
 	font-size: 0.75rem !important;
+
+	text-wrap-mode: wrap;
+	text-wrap-style: pretty;
 }
 
 .count_d5f3cd {
@@ -579,7 +582,11 @@ body *, ::placeholder {
 .count_d5f3cd::after  { content: "';"; color: var(--mindspike-chat-color1); }
 
 .guildDetail_d5f3cd::before {
-	content: "::CONNECTOR THOUGHTFORMA ::DESTINATION::";
+	content: "::CONNECTOR THOUGHTFORM\a::DESTINATION::";
+	white-space: pre;
+
+	text-wrap-mode: wrap;
+	text-wrap-style: pretty;
 	white-space: pre;
 }
 
