@@ -710,12 +710,12 @@ body *, ::placeholder {
 	margin: 0 16px;
 }
 
-.jumpToPresentBar__0f481 :first-child::before, .replyLabel__841c8::before {
+.jumpToPresentBar__0f481 .lineClamp1__4bd52:first-child::before, .replyLabel__841c8::before {
 	content: "NOTE::'";
 	text-transform: none;
 }
 
-.jumpToPresentBar__0f481 :first-child::after, .replyLabel__841c8::after {
+.jumpToPresentBar__0f481 .lineClamp1__4bd52:first-child::after, .replyLabel__841c8::after {
 	content: "';";
 }
 
