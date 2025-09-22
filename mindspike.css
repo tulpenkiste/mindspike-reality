@@ -33,6 +33,7 @@
 }
 
 :root {
+	--mindspike-chat-color-deleted: gray;
 	--mindspike-chat-color0: aqua;
 	--mindspike-chat-color1: yellow;
 	--mindspike-chat-input-color: magenta;
@@ -253,6 +254,10 @@ body *, ::placeholder {
 	padding: 0 8px !important;
 	overflow: visible !important; /* HACK: wHY caNT I gET tHE iNLInE CODE blOCKS
 										to sTOP oVERFlowIng dIScORD wHaT THe FUCK */
+}
+
+.messagelogger-deleted .messageContent_c19a55 {
+	color: var(--mindspike-chat-color-deleted) !important;
 }
 
 .markup__75297 {

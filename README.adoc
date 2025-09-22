@@ -24,3 +24,4 @@ Place `mindspike-reality.online.theme.css` into your Vencord themes folder.
 * Emoji/Gif/Sticker tabs now use the right font and text colour
 * Forum tags are readable now
 * Vencord settings "pills" are readable now
+* Deleted messages (with message logger) are now properly indicated with a different text colour
