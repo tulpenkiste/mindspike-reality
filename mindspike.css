@@ -32,7 +32,50 @@
 	src: url("assets/font/beech.ttf") format('truetype');
 }
 
-:root {
+/* These are all the same as theme-dark:not(.theme-darker):not(.theme-midnight) right now. Need more variables AND unique colour schemes. */
+:root.theme_light {
+	--mindspike-chat-color-deleted: gray;
+	--mindspike-chat-color0: aqua;
+	--mindspike-chat-color1: yellow;
+	--mindspike-chat-input-color: magenta;
+	--mindspike-left-sidebar-color0: gray;
+	--mindspike-left-sidebar-color1: aqua;
+	--mindspike-headerbar-color: aqua;
+	--mindspike-emoji-picker-color0: yellow;
+	--mindspike-emoji-picker-color1: aqua;
+	--mindspike-profile-color: yellow;
+	--mindspike-profile-full-color: yellow;
+}
+
+:root.theme-dark:not(.theme-darker):not(.theme-midnight) {
+	--mindspike-chat-color-deleted: gray;
+	--mindspike-chat-color0: aqua;
+	--mindspike-chat-color1: yellow;
+	--mindspike-chat-input-color: magenta;
+	--mindspike-left-sidebar-color0: gray;
+	--mindspike-left-sidebar-color1: aqua;
+	--mindspike-headerbar-color: aqua;
+	--mindspike-emoji-picker-color0: yellow;
+	--mindspike-emoji-picker-color1: aqua;
+	--mindspike-profile-color: yellow;
+	--mindspike-profile-full-color: yellow;
+}
+
+:root.theme_darker {
+	--mindspike-chat-color-deleted: gray;
+	--mindspike-chat-color0: aqua;
+	--mindspike-chat-color1: yellow;
+	--mindspike-chat-input-color: magenta;
+	--mindspike-left-sidebar-color0: gray;
+	--mindspike-left-sidebar-color1: aqua;
+	--mindspike-headerbar-color: aqua;
+	--mindspike-emoji-picker-color0: yellow;
+	--mindspike-emoji-picker-color1: aqua;
+	--mindspike-profile-color: yellow;
+	--mindspike-profile-full-color: yellow;
+}
+
+:root.theme_midnight {
 	--mindspike-chat-color-deleted: gray;
 	--mindspike-chat-color0: aqua;
 	--mindspike-chat-color1: yellow;
