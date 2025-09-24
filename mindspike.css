@@ -47,6 +47,8 @@
 	--mindspike-profile-color: yellow;
 	--mindspike-profile-full-color: yellow;
 
+	--mindspike-chat-color-editmsg: rgb(181, 181, 0);
+
 	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
 
@@ -63,6 +65,8 @@
 	--mindspike-emoji-picker-color1: aqua;
 	--mindspike-profile-color: yellow;
 	--mindspike-profile-full-color: yellow;
+
+	--mindspike-chat-color-editmsg: rgb(181, 181, 0);
 
 	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
@@ -81,6 +85,8 @@
 	--mindspike-profile-color: yellow;
 	--mindspike-profile-full-color: yellow;
 
+	--mindspike-chat-color-editmsg: rgb(181, 181, 0);
+
 	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
 
@@ -97,6 +103,8 @@
 	--mindspike-emoji-picker-color1: aqua;
 	--mindspike-profile-color: yellow;
 	--mindspike-profile-full-color: yellow;
+
+	--mindspike-chat-color-editmsg: rgb(181, 181, 0);
 
 	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
@@ -296,12 +304,17 @@ body *, ::placeholder {
 	text-wrap: nowrap;
 }
 
+.edited_c19a55:not(.messagelogger-edit-marker) {
+	display: none;
+}
+
 .messagelogger-edit-marker {
 	font-size: 0%;
 }
 
 .messagelogger-edit-marker::before {
-	content: "(ALTERED)";
+	content: "(ATTENTION::'resource altered';)";
+	color: var(--mindspike-chat-color-editmsg);
 	font-size: small;
 }
 
