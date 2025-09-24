@@ -261,38 +261,36 @@ body *, ::placeholder {
 	border-top-width: 1px;
 }
 
-.botTag_c19a55::after, .botTag__5d473 > .botText__82f07::after {
-	content: "GOLEM";
-	offset-position: 0 -200;
-	color: black;
-	font-size: .8rem;
-	font-weight: 600;
-	display: block;
-	font-size: --font-weight-semibold;
+/* if discord ever changes this structure, im gonna neobot_floof_explode */
+.botText__82f07 {
+	display: none;
 }
 
-.botTag__5d473 > .botText__82f07::after {
-	vertical-align: text-top;
-	padding: 0px;
-	margin: 0px;
+.botTag__82f07::before {
+	content: "GOLEM";
+	color: black;
+	font-weight: var(--font-weight-semibold);
+	text-wrap: none;
+	display: block;
+	font-size: .8rem !important;
 }
 
 .botTagVerified__82f07 > * {
 	fill: black !important;
 }
 
-.botText__82f07 {
-	font-size: 0px !important;
-	text-wrap: nowrap !important;
-}
-
-.timestamp_c19a55.alt_c19a55 {
-	left: -56px !important;
-}
-
 .timestamp_c19a55.alt_c19a55 * {
 	font-size: 0.75rem;
 	text-wrap: nowrap;
+}
+
+.messagelogger-edit-marker {
+	font-size: 0%;
+}
+
+.messagelogger-edit-marker::before {
+	content: "(ALTERED)";
+	font-size: small;
 }
 
 .messageContent_c19a55 {
