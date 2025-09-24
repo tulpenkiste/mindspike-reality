@@ -46,6 +46,8 @@
 	--mindspike-emoji-picker-color1: aqua;
 	--mindspike-profile-color: yellow;
 	--mindspike-profile-full-color: yellow;
+
+	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
 
 :root.theme-dark:not(.theme-darker):not(.theme-midnight) {
@@ -61,6 +63,8 @@
 	--mindspike-emoji-picker-color1: aqua;
 	--mindspike-profile-color: yellow;
 	--mindspike-profile-full-color: yellow;
+
+	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
 
 :root.theme-darker {
@@ -76,6 +80,8 @@
 	--mindspike-emoji-picker-color1: aqua;
 	--mindspike-profile-color: yellow;
 	--mindspike-profile-full-color: yellow;
+
+	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
 
 :root.theme-midnight {
@@ -91,6 +97,8 @@
 	--mindspike-emoji-picker-color1: aqua;
 	--mindspike-profile-color: yellow;
 	--mindspike-profile-full-color: yellow;
+
+	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
 
 * {
@@ -269,7 +277,7 @@ body *, ::placeholder {
 .botTag__82f07::before {
 	content: "GOLEM";
 	color: black;
-	font-weight: var(--font-weight-semibold);
+	font-weight: var(--mindspike-golem-boldness);
 	text-wrap: none;
 	display: block;
 	font-size: .8rem !important;
