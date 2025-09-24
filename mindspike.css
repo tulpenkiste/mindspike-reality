@@ -164,8 +164,8 @@ body *, ::placeholder {
 /**
  * UNSECTIONED
 */
-.vc-settings-quickActions-pill {
-	color: black;
+.vc-settings-quickActions-pill, .pill_a2c9e8 {
+	color: black !important;
 }
 
 .tagListInner_f369db *, .tags__08166 * {
