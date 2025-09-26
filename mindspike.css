@@ -5,32 +5,7 @@
  *
  * ROOT - sectRoot
  */
-@font-face {
-	font-family: "spacemono";
-	font-weight: normal;
-	src: url("assets/font/SpaceMono-Regular.woff2");
-}
-
-@font-face {
-	font-family: "spacemono";
-	font-weight: bold;
-	src: url("assets/font/SpaceMono-Bold.woff2");
-}
-
-@font-face {
-	font-family: "bstrd";
-	src: url("assets/font/NewspaperCutoutWhiteOnBlac-Rg.ttf") format('truetype');
-}
-
-@font-face {
-	font-family: "barcodetext";
-	src: url("assets/font/LibreBarcode128Text-Regular.woff2");
-}
-
-@font-face {
-	font-family: "beech";
-	src: url("assets/font/beech.ttf") format('truetype');
-}
+@import url("src/fonts.css");
 
 /* These are all the same as theme-dark:not(.theme-darker):not(.theme-midnight) right now. Need more variables AND unique colour schemes. */
 :root.theme-light {
@@ -109,7 +84,38 @@
 	--mindspike-golem-boldness: var(--font-weight-semibold);
 }
 
-@import url("src/test.css");
+* {
+	--background-primary: black !important;
+	--background-secondary: black !important;
+	--background-secondary-alt: black !important;
+	--background-tertiary: black !important;
+	--background-floating: black !important;
+	--channeltextarea-background: black !important;
+	--background-modifier-selected: black !important;
+	--background-modifier-hover: black !important;
+	--background-modifier-active: black !important;
+	--modal-background: black !important;
+	--home-background: black !important;
+	--custom-category-channel-space-before-category: 2px !important;
+	--button-secondary-background: yellow !important;
+	--button-secondary-background-hover: aqua !important;
+	--brand-experiment: yellow !important;
+	--button-positive-background: yellow !important;
+	--button-positive-background-hover: aqua !important;
+	--modal-footer-background: black !important;
+	--button-danger-background: #FF0066 !important;
+	--button-danger-background-hover: aqua !important;
+	--button-outline-danger-border: #FF0066 !important;
+	--button-outline-danger-border-hover: #FF0066 !important;
+	--button-outline-danger-background-hover: #FF0066 !important;
+	--button-outline-danger-text: #FF0066 !important;
+	--button-outline-danger-text-hover: black !important;
+	--profile-gradient-button-color: yellow;
+	--brand-500: aqua;
+	--bg-brand: aqua;
+	--brand-200: #FF0066;
+	--text-positive: aqua;
+}
 
 /* .colorBrand__201d5 {
 	background-color: #FF0066;
